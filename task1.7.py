@@ -8,7 +8,7 @@ b = float(input('Введите вторую сторону треугольни
 c = float(input('Введите третью сторону треугольника: '))
 
 if a + b > c and b + c > a and c + a > b:
-    if a == b and b == c:
+    if a == b == c:
         print('Треугольник равносторонний')
     elif a != b and b != c and c != a:
         print('Треугольник разносторонний')
