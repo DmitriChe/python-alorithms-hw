@@ -17,7 +17,7 @@ for i in range(len(arr) - 1):
         if count == max_count:
             most_frequent_nums.append(arr[i])
         if count > max_count:
-            max_count = count;
+            max_count = count
             most_frequent_nums = [arr[i]]
 
         count = 1

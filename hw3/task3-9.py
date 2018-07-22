@@ -5,7 +5,7 @@ m = 5
 n = 4
 matrix = [[random.randint(-100, 100) for _ in range(n)] for _ in range(m)]
 
-max_elem = -100
+max_elem = float('-inf')
 
 for i in range(n):
     col_min = matrix[0][i]

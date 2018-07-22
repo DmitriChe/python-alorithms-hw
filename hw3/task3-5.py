@@ -4,7 +4,7 @@ import random
 
 arr = [random.randint(-100, 100) for _ in range(100)]
 
-max_negative = -101
+max_negative = float('-inf')
 pos = -1
 
 for i in range(len(arr)):
